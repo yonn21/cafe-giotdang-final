@@ -8,7 +8,7 @@
   },
   "author": "anh2",
   "license": "MIT",
-  "repository": "https://github.com/yonn21/cafe-giotdang.git",
+  "repository": "https://github.com/yonn21/cafe-giotdang-final.git",
   "dependencies": {
     "connect-flash": "^0.1.1",
     "ejs": "^3.1.8",
