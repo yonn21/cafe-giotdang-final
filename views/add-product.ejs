@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="/public/assets/vendor/fonts/flag-icon-css/flag-icon.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
     <!-- Title  -->
-   <title>Giọt Đắng - Thêm sản phẩm</title>
+   <title>Giọt Đắng - Thêm đồ uống</title>
 
    <!-- Favicon  -->
    <link rel="icon" href="/public/img/core-img/favicon.ico" />
@@ -172,9 +172,6 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="/admin/dashboard/orders-manager">Quản lý đơn hàng</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="/admin/dashboard/users-manager">Quản lý người dùng</a>
-                                        </li>
                                     </ul>
                                 </div>
                             </li>
@@ -243,7 +240,7 @@
                                         id="validationServer01" value="0" required />
                                 </div>
                                 <div class="col-md-6 col-lg-6 mb-3">
-                                    <label for="validationTooltip04">Nhà cung cấp:</label>
+                                    <label for="validationTooltip04">Loại:</label>
                                     <select class="custom-select" name="supplier" id="validationTooltip04" required>
                                         <option selected disabled value="">Chọn</option>
                                         <% suppliers.forEach(supplier=> {%>
