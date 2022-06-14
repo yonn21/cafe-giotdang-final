@@ -44,77 +44,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto navbar-right-top">
-                        <li class="nav-item dropdown notification">
-                            <a class="nav-link nav-icons" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false"><i class="fas fa-fw fa-bell"></i>
-                                <span class="indicator"></span></a>
-                            <ul class="dropdown-menu dropdown-menu-right notification-dropdown">
-                                <li>
-                                    <div class="notification-title">Notification</div>
-                                    <div class="notification-list">
-                                        <div class="list-group">
-                                            <a href="#" class="list-group-item list-group-item-action active">
-                                                <div class="notification-info">
-                                                    <div class="notification-list-user-img">
-                                                        <img src="/public/assets/images/avatar-2.jpg" alt=""
-                                                            class="user-avatar-md rounded-circle" />
-                                                    </div>
-                                                    <div class="notification-list-user-block">
-                                                        <span class="notification-list-user-name">Jeremy
-                                                            Rakestraw</span>accepted your invitation to join the team.
-                                                        <div class="notification-date">2 min ago</div>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a href="#" class="list-group-item list-group-item-action">
-                                                <div class="notification-info">
-                                                    <div class="notification-list-user-img">
-                                                        <img src="/public/assets/images/avatar-3.jpg" alt=""
-                                                            class="user-avatar-md rounded-circle" />
-                                                    </div>
-                                                    <div class="notification-list-user-block">
-                                                        <span class="notification-list-user-name">John Abraham </span>is
-                                                        now following you
-                                                        <div class="notification-date">2 days ago</div>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a href="#" class="list-group-item list-group-item-action">
-                                                <div class="notification-info">
-                                                    <div class="notification-list-user-img">
-                                                        <img src="/public/assets/images/avatar-4.jpg" alt=""
-                                                            class="user-avatar-md rounded-circle" />
-                                                    </div>
-                                                    <div class="notification-list-user-block">
-                                                        <span class="notification-list-user-name">Monaan Pechi</span>
-                                                        is watching your main repository
-                                                        <div class="notification-date">2 min ago</div>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a href="#" class="list-group-item list-group-item-action">
-                                                <div class="notification-info">
-                                                    <div class="notification-list-user-img">
-                                                        <img src="/public/assets/images/avatar-5.jpg" alt=""
-                                                            class="user-avatar-md rounded-circle" />
-                                                    </div>
-                                                    <div class="notification-list-user-block">
-                                                        <span class="notification-list-user-name">Jessica
-                                                            Caruso</span>accepted your invitation to join the team.
-                                                        <div class="notification-date">2 min ago</div>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="list-footer">
-                                        <a href="#">View all notifications</a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </li>
+                        
                         <li class="nav-item dropdown nav-user">
                             <a class="nav-link nav-user-img" href="#" id="navbarDropdownMenuLink2"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img
@@ -167,7 +97,7 @@
                                             <a class="nav-link" href="/admin/dashboard/categories-manager">Quản lý danh mục</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link active" href="/admin/dashboard/products-manager">Quản lý sản phẩm</a>
+                                            <a class="nav-link active" href="/admin/dashboard/products-manager">Quản lý đồ uống</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="/admin/dashboard/orders-manager">Quản lý đơn hàng</a>
@@ -195,7 +125,7 @@
                     <div class="row">
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                             <div class="page-header">
-                                <h2 class="pageheader-title">Thêm sản phẩm</h2>
+                                <h2 class="pageheader-title">Thêm đồ uống</h2>
                                 <div class="page-breadcrumb">
                                     <nav aria-label="breadcrumb">
                                         <ol class="breadcrumb">
@@ -203,10 +133,10 @@
                                                 <a href="#" class="breadcrumb-link">Dashboard</a>
                                             </li>
                                             <li class="breadcrumb-item" aria-current="page">
-                                                Quản lý sản phẩm
+                                                Quản lý đồ uống
                                             </li>
                                             <li class="breadcrumb-item active" aria-current="page">
-                                                Thêm sản phẩm
+                                                Thêm đồ uống
                                             </li>
                                         </ol>
                                     </nav>
@@ -219,7 +149,7 @@
                             <form class="row g-3" accept-charset="utf-8" spellcheck="false"
                                 enctype="multipart/form-data" action="/admin/dashboard/products-manager/add" method="POST">
                                 <div class="col-md-12 col-sm-12 col-lg-12">
-                                    <label for="validationServer01" class="form-label">Tên sản phẩm:</label>
+                                    <label for="validationServer01" class="form-label">Tên đồ uống:</label>
                                     <input type="text" name="productname" class="form-control" id="validationServer01"
                                         value="" required />
                                 </div>
@@ -280,7 +210,7 @@
                                 </div>
                                 <div class="col-12">
                                     <button class="btn btn-primary mt-3" type="submit">
-                                        Thêm sản phẩm
+                                        Thêm đồ uống
                                     </button>
                                 </div>
                             </form>

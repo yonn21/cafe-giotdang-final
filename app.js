@@ -5,7 +5,6 @@ const index = require('./routers/index.router');
 const admin = require('./routers/admin.router');
 const product = require('./routers/product.router');
 const categories = require('./routers/categories.router');
-const PORT = 6969;
 const flash = require('connect-flash');
 const mongoose = require('mongoose');
 
@@ -128,6 +127,7 @@ app.use('/admin', admin);
 app.use('/product', product);
 app.use('/categories', categories);
 
+const PORT = 6969;
 app.listen(PORT, () => {
     console.log(`Server is started at: http://localhost:${PORT}`);
 });

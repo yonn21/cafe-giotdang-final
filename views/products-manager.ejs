@@ -83,7 +83,7 @@
                                             <a class="nav-link" href="/admin/dashboard/categories-manager">Quản lý danh mục</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link active" href="/admin/dashboard/products-manager">Quản lý sản phẩm</a>
+                                            <a class="nav-link active" href="/admin/dashboard/products-manager">Quản lý đồ uống</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1-2" aria-controls="submenu-1-2">Quản lý đơn hàng</a>
@@ -121,12 +121,12 @@
                     <div class="row">
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                             <div class="page-header">
-                                <h2 class="pageheader-title"> Quản lý sản phẩm </h2>
+                                <h2 class="pageheader-title"> Quản lý đồ uống </h2>
                                 <div class="page-breadcrumb">
                                     <nav aria-label="breadcrumb">
                                         <ol class="breadcrumb">
                                             <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Dashboard</a></li>
-                                            <li class="breadcrumb-item" aria-current="page">Quản lý sản phẩm</li>
+                                            <li class="breadcrumb-item" aria-current="page">Quản lý đồ uống</li>
                                             <li class="breadcrumb-item active" aria-current="page">Trang <%= page %> </li>
                                         </ol>
                                     </nav>
@@ -143,8 +143,8 @@
                             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                                 <div class="card">
                                     <div class="header-product">
-                                        <h5 class="card-header">Quản lý sản phẩm</h5>
-                                        <a class="button" href="/admin/dashboard/products-manager/add">Thêm sản phẩm</a>
+                                        <h5 class="card-header">Quản lý đồ uống</h5>
+                                        <a class="button" href="/admin/dashboard/products-manager/add">Thêm đồ uống</a>
                                     </div>
                                     <div class="card-body p-0">
                                         <div class="table-responsive">
@@ -152,7 +152,7 @@
                                                 <thead class="bg-light">
                                                     <tr class="border-0">
                                                         <th class="border-0">#</th>
-                                                        <th class="border-0">Tên sản phẩm</th>
+                                                        <th class="border-0">Tên đồ uống</th>
                                                         <th class="border-0">Loại</th>
                                                         <th class="border-0">Danh mục</th>
                                                         <th class="border-0">Số lượng tồn</th>
@@ -196,8 +196,8 @@
                                                             <%}%> 
                                                             <td>
                                                                 <a style="margin-right: 5px;" href="/admin/dashboard/products-manager/update/<%= element._id %>"><i class="fas fa-edit"></i></a>
-                                                                <a onclick="comfirmDelete('Bạn có muốn xóa sản phẩm này?',event)" style="margin-right: 5px;" href="/admin/dashboard/products-manager/delete/<%= element._id %>"><i class="fas fa-trash"></i></a>
-                                                                <a onclick="comfirmDelete('Bạn có muốn ẩn/hiển thị sản phẩm này?',event)" style="margin-right: 5px;" href="/admin/dashboard/products-manager/hide/<%= element._id %>"><i class="fas fa-eye-slash"></i></a>
+                                                                <a onclick="comfirmDelete('Bạn có muốn xóa đồ uống này?',event)" style="margin-right: 5px;" href="/admin/dashboard/products-manager/delete/<%= element._id %>"><i class="fas fa-trash"></i></a>
+                                                                <a onclick="comfirmDelete('Bạn có muốn ẩn/hiển thị đồ uống này?',event)" style="margin-right: 5px;" href="/admin/dashboard/products-manager/hide/<%= element._id %>"><i class="fas fa-eye-slash"></i></a>
                                                             </td>
                                                             <% i++ %> 
                                                         </tr>

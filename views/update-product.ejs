@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="/public/assets/vendor/fonts/flag-icon-css/flag-icon.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
         <!-- Title  -->
-    <title>Giọt Đắng - Cập nhật sản phẩm</title>
+    <title>Giọt Đắng - Cập nhật đồ uống</title>
 
     <!-- Favicon  -->
     <link rel="icon" href="/public/img/core-img/favicon.ico" />
@@ -167,7 +167,7 @@
                                             <a class="nav-link" href="/admin/dashboard/categories-manager">Quản lý danh mục</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link active" href="/admin/dashboard/products-manager">Quản lý sản phẩm</a>
+                                            <a class="nav-link active" href="/admin/dashboard/products-manager">Quản lý đồ uống</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="/admin/dashboard/orders-manager">Quản lý đơn hàng</a>
@@ -195,7 +195,7 @@
                     <div class="row">
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                             <div class="page-header">
-                                <h2 class="pageheader-title">Thêm sản phẩm</h2>
+                                <h2 class="pageheader-title">Thêm đồ uống</h2>
                                 <div class="page-breadcrumb">
                                     <nav aria-label="breadcrumb">
                                         <ol class="breadcrumb">
@@ -203,10 +203,10 @@
                                                 <a href="#" class="breadcrumb-link">Dashboard</a>
                                             </li>
                                             <li class="breadcrumb-item" aria-current="page">
-                                                Quản lý sản phẩm
+                                                Quản lý đồ uống
                                             </li>
                                             <li class="breadcrumb-item active" aria-current="page">
-                                                Thêm sản phẩm
+                                                Thêm đồ uống
                                             </li>
                                         </ol>
                                     </nav>
@@ -219,7 +219,7 @@
                             <form class="row g-3" accept-charset="utf-8" spellcheck="false"
                                 enctype="multipart/form-data" action="/admin/dashboard/products-manager/update/<%= product._id %>" method="POST">
                                 <div class="col-md-12 col-sm-12 col-lg-12">
-                                    <label for="validationServer01" class="form-label">Tên sản phẩm:</label>
+                                    <label for="validationServer01" class="form-label">Tên đồ uống:</label>
                                     <input type="text" name="productname" class="form-control" id="validationServer01"
                                         value="<%= product.productName %>" required />
                                 </div>
@@ -306,7 +306,7 @@
                                 </div>
                                 <div class="col-12">
                                     <button class="btn btn-primary mt-3" type="submit">
-                                        Cập nhât thông tin sản phẩm
+                                        Cập nhât thông tin đồ uống
                                     </button>
                                 </div>
                             </form>
